@@ -10,9 +10,8 @@ const Footer = () => {
                 py: 2,
                 px: 2,
                 textAlign: 'center',
-                backgroundColor: '#FFFFFF',
+                backgroundColor: '#ffe6e6', // tom suave de vermelho
                 color: '#000000',
-                borderTop: '4px solid #FF0000', // linha vermelha
             }}
         >
             <Typography
@@ -23,8 +22,9 @@ const Footer = () => {
                     fontWeight: 500,
                 }}
             >
-                Crafted by
-                <br /> Wellinton Karvat
+                Desenvolvido
+                <br /> por <br />
+                Wellinton Karvat
             </Typography>
         </Box>
     );
