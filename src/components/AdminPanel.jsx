@@ -32,7 +32,7 @@ const AdminPanel = ({ onAddComponent }) => {
     return (
         <Paper sx={{ p: 2, mt: 4 }}>
             <Typography variant="h6" gutterBottom>
-                Admin Panel - Add Component
+                Adicionar componente
             </Typography>
             <Box component="form" onSubmit={handleSubmit} sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
                 <TextField
